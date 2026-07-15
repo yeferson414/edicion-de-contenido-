@@ -316,7 +316,7 @@ def mg_formula(frame_i, total):
 # Generate MG videos
 BFPS = 30
 mg_specs = [
-    ("mg_numero.mp4",  mg_numero,  (None,None,"Conversaciones", "1500", YEL), 5),
+    ("mg_numero.mp4",  mg_numero,  ("Conversaciones", "1500", YEL), 5),
     ("mg_alerta.mp4",  mg_alerta,  None,  5),
     ("mg_paises.mp4",  mg_paises,  None,  6),
     ("mg_formula.mp4", mg_formula, None,  5),
